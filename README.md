@@ -2,7 +2,7 @@
 
 [![Build Status - Travis CI](https://img.shields.io/travis/weavedev/redux-local-storage.svg)](https://travis-ci.org/weavedev/redux-local-storage)
 [![Test Coverage - Code Climate](https://img.shields.io/codeclimate/coverage/weavedev/redux-local-storage.svg)](https://codeclimate.com/github/weavedev/redux-local-storage/test_coverage)
-[![GPL-3.0](https://img.shields.io/github/license/weavedev/redux-local-storage.svg)](https://github.com/weavedev/redux-local-storage/blob/master/LICENSE)
+[![MIT](https://img.shields.io/github/license/weavedev/redux-local-storage.svg)](https://github.com/weavedev/redux-local-storage/blob/master/LICENSE)
 [![NPM](https://img.shields.io/npm/v/@weavedev/redux-local-storage.svg)](https://www.npmjs.com/package/@weavedev/redux-local-storage)
 
 LocalStorage management wrapper for [reduxables](https://github.com/weavedev/reduxable/) like [redux-async](https://github.com/weavedev/redux-async/).
@@ -84,6 +84,6 @@ export const storedResource = new ReduxLocalStorage(
 
 ## License
 
-[GPL-3.0](https://github.com/weavedev/redux-local-storage/blob/master/LICENSE)
+[MIT](https://github.com/weavedev/redux-local-storage/blob/master/LICENSE)
 
 Made by [Paul Gerarts](https://github.com/gerarts) and [Weave](https://weave.nl)
