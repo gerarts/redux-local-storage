@@ -68,10 +68,10 @@ export const storedResource = new ReduxLocalStorage(
      */
     transform: {
         // Convert saved state to runtime state
-        read: (s: string): MyAsyncState => ({ data: s }),
+        read: (s: CustomShape): MyAsyncState => ({ data: s.custom }),
 
         // Convert runtime state to saved state
-        write: (s: MyAsyncState): string => s.data,
+        write: (s: MyAsyncState): CustomShape => ({ custom: s.data }),
     },
 
     /**
